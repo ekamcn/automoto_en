@@ -76,7 +76,7 @@ export function ImageBanner({
 
             {/* Content Section - Below Image */}
             <div className="bg-[var(--color-2)] text-white py-2 sm:py-1 lg:py-6 xl:py-8">
-                <div className="px-4 sm:px-6 lg:px-8">
+                <div className="px-2 lg:px-8">
                     <div className="w-full text-center flex flex-col items-center justify-center">
                         <div className="max-w-screen mx-auto">
                             {/* Description */}
@@ -115,7 +115,7 @@ export function ImageBanner({
 export function ImageBannerVariant({
     title = 'Cosy Critters s',
     subtitle = 'Welcome to Cosy Critters , a proudly American brand committed to transforming your home with style, quality, and unbeatable value.',
-    description = 'Founded by a team of passionate home decor enthusiasts, our mission is simple: to make your living space more beautiful, more functional, and above all — more accessible for everyone.',
+    description = 'That’s why we created a boutique entirely dedicated to their comfort, happiness, and everyday well-being. Our mission is to bring you high-quality, practical, soft, and irresistibly cute products to pamper your loyal companion just the way they deserve.',
     imageUrl = '',
     buttonText = 'Shop Now',
     buttonUrl = '/collections/all',
