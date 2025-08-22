@@ -29,7 +29,7 @@ const sections = [
               If you don’t find the answer to your question, feel free to email
               us at{' '}
               <a href={`mailto:${import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL}`} 
-                className=" hover:text-blue-300 transition-colors !text-[var(--color-1)] underline underline-offset-4"
+                className=" hover:text-blue-300 transition-colors !text-[var(--color-footer)] underline underline-offset-4"
               >
                 {import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL || 'Email Not Set'}
               </a>
@@ -37,6 +37,7 @@ const sections = [
           </div>
         ),
       },
+      
       {
         question: 'What Payment Methods Do You Accept?',
         answer: (
@@ -137,10 +138,10 @@ export default function Homepage() {
   return (
     <div className="home">
       <ImageBanner
-        title="Cosy Critters "
+        title={import.meta.env.VITE_STORE_TITLE}
         imageUrl={import.meta.env.VITE_BANNER}
         mobileImageUrl={import.meta.env.VITE_MOBILE_BANNER}
-        subtitle="Welcome to AutoBolt Store — The Online Store Built by Gearheads, for Gearheads."
+        subtitle={`Welcome to ${import.meta.env.VITE_STORE_TITLE}  — The Online Store Built by Gearheads, for Gearheads.`}
         description="Whether you ride on two wheels or four, love tuning, live for the thrill, or just want to keep your machine running like a dream — We are here to gear you up with style, power, and precision."
         buttonText="Shop Now"
         buttonUrl=""
