@@ -48,8 +48,8 @@ export default function ShippingPolicyPage() {
           <ul className="!list-disc !list-inside text-gray-700 space-y-2 !text-sm sm:!text-base !pl-6 lg:!pl-8">
             <li>
               Processing Time: Orders are processed within{' '}
-              {import.meta.env.VITE_ORDER_PROCESSING_TIME} business days, Monday
-              to Saturday.
+              {import.meta.env.VITE_ORDER_PROCESSING_TIME} business days,{' '}
+              {import.meta.env.VITE_REFUND_PROCESSING_TIME}
             </li>
             <li>
               Cut-off Time: Orders placed before 22:00 (GMT-08:00) Pacific

@@ -102,7 +102,7 @@ export default function PaymentTermsPage() {
           <p className="leading-6 sm:leading-7 !text-sm sm:!text-base !pb-4">
             To contact us, simply send an email to{' '}
             {import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL} or call{' '}
-            {import.meta.env.VITE_CUSTOMER_SERVICE_PHONE} Monday to Friday -{' '}
+            {import.meta.env.VITE_CUSTOMER_SERVICE_PHONE} during{' '}
             {import.meta.env.VITE_BUSINESS_HOURS}.
           </p>
           <p className="flex flex-col gap-2 !text-sm sm:!text-base">
