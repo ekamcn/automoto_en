@@ -42,7 +42,7 @@ export default function ContactPage() {
                 {import.meta.env.VITE_CUSTOMER_SERVICE_PHONE}
               </a>
             </span>
-            <span>
+            {/* <span>
               Website:
               <a
                 href={
@@ -56,7 +56,7 @@ export default function ContactPage() {
               >
                 {import.meta.env.VITE_DOMAIN_NAME}
               </a>
-            </span>
+            </span> */}
             <span>Opening Hours: Monday to Friday - 9:00 AM to 5:00 PM</span>
           </div>
         </div>
