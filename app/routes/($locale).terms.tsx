@@ -329,7 +329,7 @@ export default function TermsServicesPage() {
               {' '}
               Address: {import.meta.env.VITE_COMPANY_ADDRESS}
             </span>
-            <span>
+            {/* <span>
               Website:{' '}
               <a
                 href={
@@ -343,7 +343,7 @@ export default function TermsServicesPage() {
               >
                 {import.meta.env.VITE_DOMAIN_NAME}
               </a>
-            </span>
+            </span> */}
             <span className="pt-4">Last Updated: 9-9-2025</span>
           </p>
         </div>

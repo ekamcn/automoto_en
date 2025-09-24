@@ -57,7 +57,14 @@ const sections = [
               We offer a flexible return policy. If you’re not satisfied with
               your purchase, please contact us within 30 days of receiving your
               order to arrange a return or exchange. For more details, please
-              visit our {" "}<a href="/returns" className="underline underline-offset-4">Return Policy</a> page.
+              visit our{' '}
+              <a
+                href="/returns"
+                className="transition-colors !text-white underline underline-offset-4"
+              >
+                Return Policy
+              </a>{' '}
+              page.
             </p>
           </div>
         ),
@@ -345,8 +352,8 @@ export default function Product() {
           <h1 className="text-3xl font-bold mb-2">{title}</h1>
 
           <p className="!pb-8 text-base">
-            <strong>{import.meta.env.VITE_STORE_TITLE} 🇺🇸: </strong>The American Brand That Helps You Save
-            BIG with Unbeatable Prices!
+            <strong>{import.meta.env.VITE_STORE_TITLE} 🇺🇸: </strong>The American
+            Brand That Helps You Save BIG with Unbeatable Prices!
           </p>
           {/* Price, Date, Info */}
           <div className="flex sm:flex-row items-center sm:items-end gap-4 lg:!gap-2 pb-3">
